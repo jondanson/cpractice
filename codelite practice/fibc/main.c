@@ -3,14 +3,13 @@
 
 int fib ( int n ) {
     int a = 1;
-    int b = 1;
-    printf (b);
-    printf ("fib start\n");
-    for (int i = 0; i <= n; i++) {
-        printf ("In loop\n");
+    int b = 0;
+    printf ("%d\n", b);
+    printf ("%d\n",a);
+    for (int i = 1; i <= n; i++) {
+        printf ("%d\n",a);
+        b = a
         a = b;
-        //b = b + a;
-        printf (a);
     }
     return 0;
 }
